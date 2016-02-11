@@ -1,0 +1,51 @@
+\documentclass{beamer}
+
+\makeatletter
+\let\beamer@writeslidentry@miniframeson=\beamer@writeslidentry
+\def\beamer@writeslidentry@miniframesoff{%
+  \expandafter\beamer@ifempty\expandafter{\beamer@framestartpage}{}% does not happen normally
+  {%else
+    % removed \addtocontents commands
+    \clearpage\beamer@notesactions%
+  }
+}
+\newcommand*{\miniframeson}{\let\beamer@writeslidentry=\beamer@writeslidentry@miniframeson}
+\newcommand*{\miniframesoff}{\let\beamer@writeslidentry=\beamer@writeslidentry@miniframesoff}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{ngerman}
+\usepackage{graphics}
+\usepackage{pgf}
+\usepackage{multimedia}
+\usepackage{color}
+
+\usetheme{Dresden}
+
+\addtobeamertemplate{navigation symbols}{}{%
+    \usebeamerfont{footline}%
+    \usebeamercolor[fg]{footline}%
+    \hspace{1em}%
+    \insertframenumber/\inserttotalframenumber
+}
+
+\title{System - PHP Framework}
+\author{von Ulf Gebhardt}
+\date{\today}
+	
+\begin{document}
+
+\frame{\titlepage}
+
+\input{tex/1.section.toc}
+\input{tex/2.section.introduction}
+\input{tex/3.section.system}
+\input{tex/4.section.git}
+\input{tex/5.section.software}
+
+\appendix
+
+\input{tex/6.section.outro}
+\input{tex/7.section.system.gems}
+
+\end{document}

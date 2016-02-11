@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {2}{Was ist ein Framework}{3}{0}{1}
+\beamer@sectionintoc {3}{System - PHP Framework}{6}{0}{2}
+\beamer@subsectionintoc {3}{1}{Anwendungsbereich}{7}{0}{2}
+\beamer@subsectionintoc {3}{2}{Features}{8}{0}{2}
+\beamer@subsectionintoc {3}{3}{Vorteile und Nachteile}{18}{0}{2}
+\beamer@subsectionintoc {3}{4}{Ausblick}{19}{0}{2}
+\beamer@sectionintoc {4}{Versionskontrolle}{21}{0}{3}
+\beamer@sectionintoc {5}{Software Empfehlungen}{26}{0}{4}
+\beamer@sectionintoc {7}{System - Gems}{34}{1}{5}
+\beamer@subsectionintoc {7}{1}{API}{35}{1}{5}
+\beamer@subsectionintoc {7}{2}{Quick Query}{36}{1}{5}
+\beamer@subsectionintoc {7}{3}{Kapselung - Eine Seite}{37}{1}{5}
