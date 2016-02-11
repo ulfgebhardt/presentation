@@ -11,7 +11,7 @@
 \frame{
 	\frametitle{Anwendungsbereich von System}
 	System kann in PHP-basierten Anwendungen eingesetzt werden.
-	\begin{block}{Anwendungsbereich}
+	\begin{block}{}
 	\begin{itemize}
 	\item{Websites}
    	\item{Webtools}
@@ -24,7 +24,7 @@
 \frame{
 	\frametitle{Features von System}
 	System vereichfacht die Entwicklung von PHP basierten Anwendungen
-	\begin{block}{Features}
+	\begin{block}{}
 	\begin{itemize}
 	\item{Kapselung}
    	\item{REST Schnittstelle}
@@ -39,9 +39,8 @@
 \subsubsection*{Kapselung}
 \frame{
 	\frametitle{Klassische Struktur von PHP Projekten}
+	Die klassische Struktur von PHP Projekten orientiert sich oft an der HTML Struktur.
 	\begin{block}{}
-	Die klassische Strucktur von PHP Projekten orientiert sich oft an der HTML Struktur.
-	In den entsprechenden HTML-Div's werden weitere PHP-Scripts included. Das birgt Nachteile.
 	\begin{itemize}
 	\item{HTML Code ist unübersichtlich}
 	\item{Programm ist eine Datei, zerteilt in Abschnitte}
@@ -53,8 +52,8 @@
 
 \frame{
 	\frametitle{Kapselung in System}
-	Eine Gute Kapselung vereinfacht die Übersicht über das programm. Der Programmierer soll nur die Struktur verstehen und kann den gesuchten Inhalt schnell lokalisieren. 
-	\begin{block}{Kapselung von System}
+	Eine Gute Kapselung vereinfacht die Übersicht über das Programm.
+	\begin{block}{}
 		\begin{itemize}
 			\item{nach Sprache}
 			\item{nach Art der Rückgabe (Website/Daten/Administratives)}
@@ -93,10 +92,11 @@
 
 \frame{
 	\frametitle{Kapselung nach Sinneinheit}
-	\begin{block}{Kapselung nach Sinneinheiten}
+	\begin{block}{}
 	\begin{itemize}
 		\item{Ordnerstrukturen ordnen den Code}
-		\item{Mudulare Schnittstellen - sai module, (teil)pages}
+		\item{Modulare Schnittstellen - pages, sai module}
+		\item{Frei wählbar}
 	\end{itemize}
 	\end{block}
 	Das PHP-Feature autoload ermöglicht es Klassen bei Bedarf nachzuladen.
@@ -104,12 +104,20 @@
 	
 \subsubsection*{REST in System}
 \frame{
-	\frametitle{REST in System - Where the Magic happens}
-	\begin{block}{}
+	\frametitle{REST in System}
+	\begin{block}{Funktion}
 	\begin{itemize}
 	\item{Mapping von URL-Parametern auf Funktionsnamen}
 	\item{Regeln definiert zulässige Aufrufe}
 	\item{Parameter-Typ-Prüfung}
+	\end{itemize}
+	\end{block}
+	
+	\begin{block}{Nutzen}
+	\begin{itemize}
+	\item{Sicherheit}
+	\item{Zuverlässigkeit}
+	\item{Persistenz}
 	\end{itemize}
 	\end{block}
 }
@@ -119,10 +127,11 @@
 	\frametitle{Moderne Webtechnologien, von System unterstützt}
 	\begin{block}{}
 	\begin{itemize}
-	\item{Hashbang Crawling-Scheme - \#!address}
+	\item{Hashbang Crawling-Scheme - \#!adresse}
 	\item{JQuery \& Bootstrap}
-	\item{SCSS(SASS), Minify}
-	\item{git}
+	\item{SCSS(SASS)}
+	\item{Minify}
+	\item{Git}
 	\end{itemize}
 	\end{block}
 }
@@ -148,8 +157,9 @@
 
 \subsubsection*{Modulare GUI für administrative Aufgaben}
 \frame{
-	\frametitle{System Admin Interface - SAI}					
-	\begin{block}{Features von System Admin Inteface}
+	\frametitle{System Admin Interface - SAI}
+	Das System Admin Interface verwaltet System Tabellen und Funktionalität.
+	\begin{block}{}
 	\begin{itemize}
 	\item{Modular - erweiterbar}
 	\item{Log - Alle fangbaren Fehler, die auf der Website auftreten}
@@ -162,26 +172,38 @@
 }
 
 \subsection{Vorteile und Nachteile}
-\frame{
-	\frametitle{Vorteile und Nachteile}					
+\frame{					
 	\begin{block}{Vorteile bei Einsatz von System}
 	\begin{itemize}
-	\item{}
+	\item{Kompakt und Einfach}
+	\item{Noch jung, keine starren Strukturen}
+	\item{Git kompatibel}
   	\end{itemize}
 	\end{block}
 	\begin{block}{Nachteile bei Einsatz von System}
 	\begin{itemize}
-	\item{}
+	\item{Geringe Verbreitung}
+	\item{Geringer Anteil an Dokumentation}
+	\item{Unzureichende Nutzerverwaltung}
   	\end{itemize}
 	\end{block}
 }
 
 \subsection{Ausblick}
 \frame{
-	\frametitle{Ausblick - Bootstrap}					
-	Bootstrap Grid, Click Click
+	\frametitle{Ausblick - Bootstrap}
+	\begin{block}{}
+	Bootstrap Grid Abbilden
+	Einzelne Col-md's füllen mit Content über eine Oberfläche
+	Bootstrap Menü Abbilden
+	\"Click Click\" Websiten
+	\end{block}
 }
 \frame{
-	\frametitle{Ausblick - Usermanagement}					
-	saml, idps, sps, verwaltung mehrerer Seiten 
+	\frametitle{Ausblick - Usermanagement}
+	\begin{block}{}
+	unzureichendes Usermanagement, da lokale Tabelle in jedem Projekt
+	Andere Technologien saml(idps, sps)
+	verwaltung mehrerer Seiten, zentrale Verwaltung der Nutzer
+	\end{block}
 }
