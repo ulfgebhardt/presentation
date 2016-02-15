@@ -37,9 +37,15 @@
 }
 	
 \subsubsection*{Kapselung}
-\frame{
+\frame[t]{
 	\frametitle{Klassische Struktur von PHP Projekten}
 	Die klassische Struktur von PHP Projekten orientiert sich oft an der HTML Struktur.
+	\begin{backgroundblock}{2.5cm}{4cm}
+		\includegraphics[width=8cm]{img/inlinehtml.jpg}
+	\end{backgroundblock}
+}
+\frame{
+	\frametitle{Klassische Struktur von PHP Projekten - Nachteile}
 	\begin{block}{}
 	\begin{itemize}
 	\item{HTML Code ist unübersichtlich}
@@ -61,12 +67,20 @@
 		\end{itemize}
 	\end{block}
 }
+
+\frame[t]{
+	\frametitle{Kapselung nach Sprache - MVC-Modell}
+	\begin{quote}
+		Der Begriff model view controller (MVC) ist ein Muster zur Strukturierung von Software-Entwicklung in die drei Einheiten Datenmodell, Präsentation und Programmsteuerung. (wikipedia)
+	\end{quote}
+	\begin{backgroundblock}{2.5cm}{5.0cm}
+		\includegraphics[width=7cm]{img/mvc.jpg}
+	\end{backgroundblock}
+}
 	
 \frame{
 	\frametitle{Kapselung nach Sprache}
-	Die Kapselung nach Sprache implemntiert ein MVC-Modell
-
-	Der Begriff model view controller (MVC) ist ein Muster zur Strukturierung von Software-Entwicklung in die drei Einheiten Datenmodell, Präsentation und Programmsteuerung. wikipedia
+	Die Kapselung nach Sprache implementiert ein MVC-Modell
 	\begin{block}{MVC durch Kapselung nach Sprache}
 	\begin{itemize}							
 		\item{PHP (Controller Server)}
@@ -90,7 +104,7 @@
 	\end{block}
 }
 
-\frame{
+\frame[t]{
 	\frametitle{Kapselung nach Sinneinheit}
 	\begin{block}{}
 	\begin{itemize}
@@ -99,12 +113,16 @@
 		\item{Frei wählbar}
 	\end{itemize}
 	\end{block}
-	Das PHP-Feature autoload ermöglicht es Klassen bei Bedarf nachzuladen.
+	Das PHP-Feature ``autoload'' ermöglicht es \\
+	Klassen bei Bedarf nachzuladen.
+	\begin{backgroundblock}{9.0cm}{2.0cm}
+		\includegraphics[width=3cm]{img/ordnerstruc.png}
+	\end{backgroundblock}
 }
 	
 \subsubsection*{REST in System}
 \frame{
-	\frametitle{REST in System}
+	\frametitle{REST in System - quality APIs}
 	\begin{block}{Funktion}
 	\begin{itemize}
 	\item{Mapping von URL-Parametern auf Funktionsnamen}
@@ -123,7 +141,7 @@
 }
 
 \subsubsection*{Moderne Webtechnologien in System}
-\frame{
+\frame[t]{
 	\frametitle{Moderne Webtechnologien, von System unterstützt}
 	\begin{block}{}
 	\begin{itemize}
@@ -134,15 +152,33 @@
 	\item{Git}
 	\end{itemize}
 	\end{block}
+	\begin{backgroundblock}{1.0cm}{6.5cm}
+		\includegraphics[width=1.5cm]{img/hashbangs.png}
+	\end{backgroundblock}
+	\begin{backgroundblock}{3.0cm}{6.5cm}
+		\includegraphics[width=1.5cm]{img/jQurery.jpg}
+	\end{backgroundblock}
+	\begin{backgroundblock}{5.0cm}{6.8cm}
+		\includegraphics[width=1.5cm]{img/bootstrap-logo.png}
+	\end{backgroundblock}
+	\begin{backgroundblock}{7.0cm}{6.5cm}
+		\includegraphics[width=1.5cm]{img/sass.jpg}
+	\end{backgroundblock}
+	\begin{backgroundblock}{9.0cm}{6.5cm}
+		\includegraphics[width=1.5cm]{img/minify.png}
+	\end{backgroundblock}
+	\begin{backgroundblock}{11cm}{7.0cm}
+		\includegraphics[width=1.5cm]{img/git.png}
+	\end{backgroundblock}
 }
 
 \subsubsection*{Utilities von System}	
-\frame{
+\frame[t]{
 	\frametitle{Utilities von System}
 	\begin{block}{}
 	\begin{itemize}
 	\item{Simples Template System - \$\{var\} }
-	\item{Mask Server Structure - Dateien bereitstellen, Cache}
+	\item{Verstecke Server Struktur - Dateien bereitstellen, Cache}
 	\item{Erweiterbare Configuration}
 	\item{Cron Job Verarbeitung}
 	\item{Rudimentäres Documentations-System}
@@ -151,8 +187,13 @@
 	\item{Security, Nutzerverwaltung}
 	\item{Erweiterbares Installations-Script}
 	\end{itemize}
-	%\includegraphics[width=7.5cm]{img/Azofarbstoffe2.jpg}
 	\end{block}
+}
+\frame[t]{
+	\frametitle{Codebeispiel - Template System}
+	\begin{backgroundblock}{1cm}{2.5cm}
+		\includegraphics[width=10cm]{img/default_page_tpl.png}
+	\end{backgroundblock}
 }
 
 \subsubsection*{Modulare GUI für administrative Aufgaben}
@@ -167,8 +208,37 @@
 	\item{Nutzerverwaltung}
 	\item{Text, Cache, Cron, Config, Todo, Git, ...}
   	\end{itemize}
-  %\includegraphics[width=6.5cm]{img/Azofarbstoffe.jpg}
 	\end{block}
+}
+\frame[t]{
+	\frametitle{SAI - Start}
+	\begin{backgroundblock}{1cm}{2.5cm}
+		\includegraphics[width=10cm]{img/sai_start.png}
+	\end{backgroundblock}
+}
+\frame[t]{
+	\frametitle{SAI - Log}
+	\begin{backgroundblock}{1cm}{2.5cm}
+		\includegraphics[width=10cm]{img/sai_log.png}
+	\end{backgroundblock}
+}
+\frame[t]{
+	\frametitle{SAI - Analysis}
+	\begin{backgroundblock}{1cm}{2.5cm}
+		\includegraphics[width=10cm]{img/sai_analysis.png}
+	\end{backgroundblock}
+}
+\frame[t]{
+	\frametitle{SAI - Text}
+	\begin{backgroundblock}{1cm}{2.5cm}
+		\includegraphics[width=10cm]{img/sai_text.png}
+	\end{backgroundblock}
+}
+\frame[t]{
+	\frametitle{SAI - Cron}
+	\begin{backgroundblock}{1cm}{2.5cm}
+		\includegraphics[width=10cm]{img/sai_cron.png}
+	\end{backgroundblock}
 }
 
 \subsection{Vorteile und Nachteile}
@@ -190,20 +260,43 @@
 }
 
 \subsection{Ausblick}
-\frame{
+\frame[t]{
 	\frametitle{Ausblick - Bootstrap}
 	\begin{block}{}
-	Bootstrap Grid Abbilden
-	Einzelne Col-md's füllen mit Content über eine Oberfläche
-	Bootstrap Menü Abbilden
-	\"Click Click\" Websiten
+	\begin{itemize}
+	\item{Bootstrap Grid}
+	\item{Col füllen/nachladen}
+	\item{Bootstrap Menü}
+  	\end{itemize}
 	\end{block}
+	\begin{block}{Nutzen}
+	\begin{itemize}
+	\item{``Click Click'' Websiten}
+	\item{Noch einfacher}
+	\item{Wiederverwertung von \\ Templates/Code}
+  	\end{itemize}
+	\end{block}
+	\begin{backgroundblock}{6cm}{2.5cm}
+		\includegraphics[width=6cm]{img/bootstrap_grid.jpg}
+	\end{backgroundblock}
 }
 \frame{
 	\frametitle{Ausblick - Usermanagement}
 	\begin{block}{}
-	unzureichendes Usermanagement, da lokale Tabelle in jedem Projekt
-	Andere Technologien saml(idps, sps)
-	verwaltung mehrerer Seiten, zentrale Verwaltung der Nutzer
+	\begin{itemize}
+	\item{unzureichend}
+	\item{umständlich}
+	\item{Tabelle pro Projekt}
+  	\end{itemize}
 	\end{block}
+	\begin{block}{SAML}
+	\begin{itemize}
+	\item{IDPs}
+	\item{SPs}
+	\item{verwaltung mehrer \\ Seiten, Zentralisierung}
+  	\end{itemize}
+	\end{block}
+	\begin{backgroundblock}{6cm}{2.5cm}
+		\includegraphics[width=6cm]{img/saml.jpg}
+	\end{backgroundblock}
 }
