@@ -6,8 +6,7 @@
 \beamer@subsectionintoc {3}{3}{Vorteile und Nachteile}{26}{0}{2}
 \beamer@subsectionintoc {3}{4}{Ausblick}{27}{0}{2}
 \beamer@sectionintoc {4}{Versionskontrolle}{29}{0}{3}
-\beamer@sectionintoc {5}{Software Empfehlungen}{34}{0}{4}
-\beamer@sectionintoc {7}{Gems}{42}{1}{5}
-\beamer@subsectionintoc {7}{1}{API - REST in System}{43}{1}{5}
-\beamer@subsectionintoc {7}{2}{Quick Query - Sichere SQL Querys}{44}{1}{5}
-\beamer@subsectionintoc {7}{3}{Kapselung in System - Eine Seite}{45}{1}{5}
+\beamer@sectionintoc {5}{Software Empfehlungen}{37}{0}{4}
+\beamer@sectionintoc {7}{Gems}{54}{1}{5}
+\beamer@subsectionintoc {7}{1}{API - REST in System}{55}{1}{5}
+\beamer@subsectionintoc {7}{2}{Quick Query - Sichere SQL Querys}{57}{1}{5}
