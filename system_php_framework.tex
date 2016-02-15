@@ -34,6 +34,14 @@
 \addtobeamertemplate{background}{\box\@backgroundblock}{}
 \makeatother
 
+\setbeamertemplate{title page}
+{\begin{center}
+      {\usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle}\\[4ex]
+      {\usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor}\\[3ex]
+      \insertdate
+    \end{center}
+}
+
 \usetheme{Dresden}
 
 \addtobeamertemplate{navigation symbols}{}{%
@@ -45,6 +53,7 @@
 
 \title{System - PHP Framework}
 \author{von Ulf Gebhardt}
+\institute{\href{mailto:ulf.gebhardt@webcraft-media.de}{ulf.gebhardt@webcraft-media.de}}
 \date{\today}
 	
 \begin{document}
