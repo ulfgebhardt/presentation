@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.06pt}
+\beamer@sectionintoc {1}{Inhalt}{2}{0}{1}
+\beamer@sectionintoc {2}{Das Funktionsprinzip}{3}{0}{2}
+\beamer@sectionintoc {3}{YChat-Protokoll}{8}{0}{3}
+\beamer@sectionintoc {4}{YChat-Server}{13}{0}{4}
+\beamer@sectionintoc {5}{YChat-Client}{18}{0}{5}
+\beamer@sectionintoc {6}{Live-Demonstration}{23}{0}{6}
+\beamer@sectionintoc {7}{Danksagung}{24}{0}{7}
